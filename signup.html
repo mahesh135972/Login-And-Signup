@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Travle-Signup</title>
+     <link rel="stylesheet" href="./signup (1).css">
+     <script src="./login.js" defer></script>
+</head>
+<body>
+    <div id="login">
+        <form action="./index.html">
+        <h1>Signup</h1>
+        <p>If you already have an Account?</p>
+        <button id="loginButtion">Login</button>
+    </div>
+    <div id="signup">
+
+        <input placeholder="First Name">
+        <input placeholder="Sur Name">
+        <input placeholder="Mobile Number or Email Address" class="inputBox">
+        <input placeholder="New Password" type="password" class="inputBox">
+       
+
+        <div id="dob">
+            <h4 id="dobHeading">Date of Birth</h4>
+            <div id="selectTags">
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </select>
+        <select>
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+            <option>Jun</option>
+            <option>Jul</option>
+            <option>Aug</option>
+            <option>Sep</option>
+            <option>Oct</option>
+            <option>Nov</option>
+            <option>Dec</option>
+        </select>
+        <select>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+            <option>1996</option>
+            <option>1997</option>
+            <option>1998</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+        </select>
+    </div>
+    </div>
+    <div id="gender">
+        <h4>Gender</h4>
+        <br>
+        <div id="genderalign">
+        <h4>Male</h4>
+        <input type="radio" class="ginp" name="Gender" onclick="    gender('Male')">
+        <h4>Female</h4>
+        <input type="radio" class="ginp" name="Gender" onclick="    gender('female')">
+        <h4>Others</h4>
+        <input type="radio" class="ginp" name="Gender" onclick="    gender('Others')">
+    </div>
+        </div>
+        <label>People who use our service may have uploaded your contact information to Facebook. Learn more. By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</label>
+        <input type="submit" id="signupbutton" value="Signup" onclick="storeTheValue()">
+    </div>
+</form>
+</body>
+</html>

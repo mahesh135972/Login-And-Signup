@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(75deg,#D4145A,#FBB03B);
+}
+#login,#signup{
+    width: 45%;
+    height: 70vh;
+    background-color: rgba(253, 255, 199, 0.615);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content:space-evenly;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+#login{
+    flex-direction: column;
+    background-color: transparent;
+    box-shadow: none;
+    height: 40vh;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+p{
+    font-size: 24px; 
+}
+#loginButtion,#signupbutton{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(192, 192, 192, 0.615);
+    box-shadow: 2px 2px 2px black;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+#loginButtion:hover,#signupbutton:hover{
+    background-color: #D4145A;
+    color: white;
+}
+input{
+    width: 40%;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px black;
+    outline: none;
+}
+.inputBox
+{
+    width: 88%;
+}
+#dob{
+    height: 80px;
+   position: relative;
+   top: 20px;
+   right: 30px;
+   width: 80%;
+}
+select{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color:#D4145A;
+    color: white;
+    font-size: 23px;
+}
+#selectTags{
+    width: 130%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    right: 40px;
+    top: 20px;
+}
+#gender{
+    width: 100%;
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+    padding: 30px;
+}
+#genderalign{
+    display: flex;
+}
+.ginp{
+    box-shadow: none;
+}
+label{
+    font-size: 10px;
+    width: 80%;
+    position: relative;
+    bottom: 20px;
+}
+#dobHeading{
+    position: absolute;
+    left: 10px;
+}
+#signupbutton{
+    position: relative;
+    bottom: 10px;
+    height: 30px;
+}
+
+#loginButtion{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}

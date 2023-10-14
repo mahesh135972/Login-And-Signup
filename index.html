@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./login.js" defer></script>
+</head>
+<body>
+    <form>
+    <div id="outerContainer">
+        <div id="innerContainer">
+            <h1>Login</h1>
+            <div id="emailDiv" >
+                <input class="inputTag" placeholder="Enter the Email">
+            </div>
+            <div id="passDiv">
+                <input class="inputTag" placeholder="Enter the Password" type="password">
+                <img id="visibleLogo" src="./closeeye.jpg" onmousedown="visiblepassword()" onmouseup="invisiblepassword()">
+            </div>
+            <h4 id="status"></h4>
+            <input id="loginButton" type="button" value="Login" onclick="loginFun()">
+        </div>
+    </div>
+</form>
+    <h4 id="account">Dont have an Account? <a href="./signup.html">Click here!</a></h4>
+</body>
+</html>
